@@ -1,0 +1,283 @@
+*** ENVIRONMENT CRASH ***
+
+Date: Jun 12 2022 8:52 PM
+
+File Name: C:\Program Files (x86)\Ready to Program\Ready.exe
+Version: 1.7.1  [11]
+File Size: 2908199
+File Date: Oct 7 2003 3:57 PM
+Operating System: After Windows XP
+JVM: Ready Built-in JRE (1.4.2 or later)
+"assert" Statements: disabled
+
+
+Cause of Crash: Access Violation
+
+Previous Operations:
+    Text - sz:668:20439 - slFr:487:3:16206 - slTo:487:3:16206 - nlA:0
+    Line Starts: 665:20406 666:20416 667:20422 668:20439
+    Keystroke (2) - sz:668:20438 - slFr:16205 - slTo:16205 - nlA:0
+    Line Starts: 665:20405 666:20415 667:20421 668:20438
+  CMD: WM_CHAR [#8] (D)
+    Keystroke - Text: 25aab98 - ch: 8
+    Text - sz:668:20438 - slFr:487:2:16205 - slTo:487:2:16205 - nlA:0
+    Line Starts: 665:20405 666:20415 667:20421 668:20438
+    Keystroke (2) - sz:668:20437 - slFr:16204 - slTo:16204 - nlA:0
+    Line Starts: 665:20404 666:20414 667:20420 668:20437
+  CMD: WM_CHAR [#8] (D)
+    Keystroke - Text: 25aab98 - ch: 8
+    Text - sz:668:20437 - slFr:487:1:16204 - slTo:487:1:16204 - nlA:0
+    Line Starts: 665:20404 666:20414 667:20420 668:20437
+    Keystroke (2) - sz:668:20436 - slFr:16203 - slTo:16203 - nlA:0
+    Line Starts: 665:20403 666:20413 667:20419 668:20436
+  CMD: WM_CHAR [#8] (D)
+    Keystroke - Text: 25aab98 - ch: 8
+    Text - sz:668:20436 - slFr:487:0:16203 - slTo:487:0:16203 - nlA:0
+    Line Starts: 665:20403 666:20413 667:20419 668:20436
+    Keystroke (2) - sz:667:20435 - slFr:16202 - slTo:16202 - nlA:0
+    Line Starts: 664:20402 665:20412 666:20418 667:20435
+  CMD: WM_CHAR [#8] (D)
+    Keystroke - Text: 25aab98 - ch: 8
+    Text - sz:667:20435 - slFr:486:0:16202 - slTo:486:0:16202 - nlA:0
+    Line Starts: 664:20402 665:20412 666:20418 667:20435
+    Keystroke (2) - sz:666:20434 - slFr:16201 - slTo:16201 - nlA:0
+    Line Starts: 663:20401 664:20411 665:20417 666:20434
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 25aab98 - L: 486 - C: 66
+    Text - sz:666:20434 - slFr:485:0:16201 - slTo:485:0:16201 - nlA:0
+    Line Starts: 663:20401 664:20411 665:20417 666:20434
+    Set Selection (2) - sz:666:20434 - slFr:16258 - slTo:16258 - nlA:0
+    Line Starts: 663:20401 664:20411 665:20417 666:20434
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 25aab98 - L: 486 - C: 66 (x1)
+    Text - sz:666:20434 - slFr:486:56:16258 - slTo:486:56:16258 - nlA:0
+    Line Starts: 663:20401 664:20411 665:20417 666:20434
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_PASTE
+    Paste (1) - Window: 107da - SelLen: 0
+    Insert Text (1) - Text: 25aab98 - size: 32 - clean: 0
+    Text - sz:666:20434 - slFr:16258 - slTo:16258 - nlA:0
+    Line Starts: 663:20401 664:20411 665:20417 666:20434
+    Insert Text (2) - numNewLines: 0
+    Insert Text (3) - sz:666:20466 - slFr:16290 - slTo:16290 - nlA:0
+    Line Starts: 663:20433 664:20443 665:20449 666:20466
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 25aab98 - L: 545 - C: 31
+    Text - sz:666:20466 - slFr:486:88:16290 - slTo:486:88:16290 - nlA:0
+    Line Starts: 663:20433 664:20443 665:20449 666:20466
+    Set Selection (2) - sz:666:20466 - slFr:17912 - slTo:17912 - nlA:0
+    Line Starts: 663:20433 664:20443 665:20449 666:20466
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 25aab98 - L: 545 - C: 31 (x1)
+    Text - sz:666:20466 - slFr:545:22:17912 - slTo:545:22:17912 - nlA:0
+    Line Starts: 663:20433 664:20443 665:20449 666:20466
+  CMD: WM_CHAR [r] (D) (x14) [//for hard mor]
+    Keystroke - Text: 25aab98 - ch: 114
+    Text - sz:666:20479 - slFr:545:35:17925 - slTo:545:35:17925 - nlA:0
+    Line Starts: 663:20446 664:20456 665:20462 666:20479
+    Keystroke (2) - sz:666:20480 - slFr:17926 - slTo:17926 - nlA:0
+    Line Starts: 663:20447 664:20457 665:20463 666:20480
+  CMD: WM_CHAR [#8] (D)
+    Keystroke - Text: 25aab98 - ch: 8
+    Text - sz:666:20480 - slFr:545:36:17926 - slTo:545:36:17926 - nlA:0
+    Line Starts: 663:20447 664:20457 665:20463 666:20480
+    Keystroke (2) - sz:666:20479 - slFr:17925 - slTo:17925 - nlA:0
+    Line Starts: 663:20446 664:20456 665:20462 666:20479
+  CMD: WM_CHAR [ ] (D) (x8) [de, sop ]
+    Keystroke - Text: 25aab98 - ch: 32
+    Text - sz:666:20486 - slFr:545:42:17932 - slTo:545:42:17932 - nlA:0
+    Line Starts: 663:20453 664:20463 665:20469 666:20486
+    Keystroke (2) - sz:666:20487 - slFr:17933 - slTo:17933 - nlA:0
+    Line Starts: 663:20454 664:20464 665:20470 666:20487
+  CMD: WM_CHAR [#8] (D)
+    Keystroke - Text: 25aab98 - ch: 8
+    Text - sz:666:20487 - slFr:545:43:17933 - slTo:545:43:17933 - nlA:0
+    Line Starts: 663:20454 664:20464 665:20470 666:20487
+    Keystroke (2) - sz:666:20486 - slFr:17932 - slTo:17932 - nlA:0
+    Line Starts: 663:20453 664:20463 665:20469 666:20486
+  CMD: WM_CHAR [#8] (D)
+    Keystroke - Text: 25aab98 - ch: 8
+    Text - sz:666:20486 - slFr:545:42:17932 - slTo:545:42:17932 - nlA:0
+    Line Starts: 663:20453 664:20463 665:20469 666:20486
+    Keystroke (2) - sz:666:20485 - slFr:17931 - slTo:17931 - nlA:0
+    Line Starts: 663:20452 664:20462 665:20468 666:20485
+  CMD: WM_CHAR [\] (D) (x60) [ that the user would be able to move their turtle "fasster"\]
+    Keystroke - Text: 25aab98 - ch: 92
+    Text - sz:666:20544 - slFr:545:100:17990 - slTo:545:100:17990 - nlA:0
+    Line Starts: 663:20511 664:20521 665:20527 666:20544
+    Keystroke (2) - sz:666:20545 - slFr:17991 - slTo:17991 - nlA:0
+    Line Starts: 663:20512 664:20522 665:20528 666:20545
+  CMD: WM_CHAR [#8] (D)
+    Keystroke - Text: 25aab98 - ch: 8
+    Text - sz:666:20545 - slFr:545:101:17991 - slTo:545:101:17991 - nlA:0
+    Line Starts: 663:20512 664:20522 665:20528 666:20545
+    Keystroke (2) - sz:666:20544 - slFr:17990 - slTo:17990 - nlA:0
+    Line Starts: 663:20511 664:20521 665:20527 666:20544
+  CMD: WM_CHAR [#8] (D)
+    Keystroke - Text: 25aab98 - ch: 8
+    Text - sz:666:20544 - slFr:545:100:17990 - slTo:545:100:17990 - nlA:0
+    Line Starts: 663:20511 664:20521 665:20527 666:20544
+    Keystroke (2) - sz:666:20543 - slFr:17989 - slTo:17989 - nlA:0
+    Line Starts: 663:20510 664:20520 665:20526 666:20543
+  CMD: WM_CHAR [#8] (D)
+    Keystroke - Text: 25aab98 - ch: 8
+    Text - sz:666:20543 - slFr:545:99:17989 - slTo:545:99:17989 - nlA:0
+    Line Starts: 663:20510 664:20520 665:20526 666:20543
+    Keystroke (2) - sz:666:20542 - slFr:17988 - slTo:17988 - nlA:0
+    Line Starts: 663:20509 664:20519 665:20525 666:20542
+  CMD: WM_CHAR [#8] (D)
+    Keystroke - Text: 25aab98 - ch: 8
+    Text - sz:666:20542 - slFr:545:98:17988 - slTo:545:98:17988 - nlA:0
+    Line Starts: 663:20509 664:20519 665:20525 666:20542
+    Keystroke (2) - sz:666:20541 - slFr:17987 - slTo:17987 - nlA:0
+    Line Starts: 663:20508 664:20518 665:20524 666:20541
+  CMD: WM_CHAR [#8] (D)
+    Keystroke - Text: 25aab98 - ch: 8
+    Text - sz:666:20541 - slFr:545:97:17987 - slTo:545:97:17987 - nlA:0
+    Line Starts: 663:20508 664:20518 665:20524 666:20541
+    Keystroke (2) - sz:666:20540 - slFr:17986 - slTo:17986 - nlA:0
+    Line Starts: 663:20507 664:20517 665:20523 666:20540
+  CMD: WM_CHAR [#8] (D)
+    Keystroke - Text: 25aab98 - ch: 8
+    Text - sz:666:20540 - slFr:545:96:17986 - slTo:545:96:17986 - nlA:0
+    Line Starts: 663:20507 664:20517 665:20523 666:20540
+    Keystroke (2) - sz:666:20539 - slFr:17985 - slTo:17985 - nlA:0
+    Line Starts: 663:20506 664:20516 665:20522 666:20539
+  CMD: WM_CHAR [ ] (D) (x5) [ter" ]
+    Keystroke - Text: 25aab98 - ch: 32
+    Text - sz:666:20543 - slFr:545:99:17989 - slTo:545:99:17989 - nlA:0
+    Line Starts: 663:20510 664:20520 665:20526 666:20543
+    Keystroke (2) - sz:666:20544 - slFr:17990 - slTo:17990 - nlA:0
+    Line Starts: 663:20511 664:20521 665:20527 666:20544
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_SAVE_FILE
+    Save File (1) - Window: 107da - SaveAs: 0 - Sel: 0 - fileno: 0 - sizeptr: 0
+    Save File (2) - name: C:\Users\opmar\Downloads\drive-download-20220603T193455Z-001\CPTUnderWaterAdventures.java - fileno: 0 - sizeptr: 0
+  CMD: WM_CLOSE (W)
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_CLOSE (W)
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_DESTROY (W)
+  CMD: WM_DESTROY (D)
+
+
+Registers
+  EAX=22313030  EBX=028CB3D8  ECX=2D5A3535  EDX=028C93D8  ESI=028C93D0
+  EDI=028C0000  EBP=0019E548  ESP=0019E3F8  EIP=77404063  FLG=00010202
+  CS=0023  DS=002B  SS=002B  ES=002B  FS=0053  GS=002B
+
+List of Modules: 
+    C:\Program Files (x86)\Ready to Program\Ready.exe
+    C:\Windows\SYSTEM32\ntdll.dll
+    C:\Windows\System32\KERNEL32.DLL
+    C:\Windows\System32\KERNELBASE.dll
+    C:\Windows\SYSTEM32\apphelp.dll
+    C:\Windows\System32\USER32.dll
+    C:\Windows\System32\win32u.dll
+    C:\Windows\System32\GDI32.dll
+    C:\Windows\System32\gdi32full.dll
+    C:\Windows\System32\msvcp_win.dll
+    C:\Windows\System32\ucrtbase.dll
+    C:\Windows\System32\comdlg32.dll
+    C:\Windows\System32\msvcrt.dll
+    C:\Windows\System32\combase.dll
+    C:\Windows\System32\RPCRT4.dll
+    C:\Windows\System32\shcore.dll
+    C:\Windows\System32\SHLWAPI.dll
+    C:\Windows\System32\SHELL32.dll
+    C:\Windows\System32\ADVAPI32.dll
+    C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.1110_none_c0da534e38c01f4d\COMCTL32.dll
+    C:\Windows\System32\sechost.dll
+    C:\Windows\SYSTEM32\VERSION.dll
+    C:\Windows\SYSTEM32\WINMM.dll
+    C:\Windows\System32\IMM32.DLL
+    C:\Windows\system32\uxtheme.dll
+    C:\Windows\System32\MSCTF.dll
+    C:\Windows\System32\OLEAUT32.dll
+    C:\Program Files (x86)\Ready to Program\Support\Bin\edjdll.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\client\jvm.dll
+    C:\Windows\SYSTEM32\kernel.appcore.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\hpi.dll
+    C:\Windows\System32\bcryptPrimitives.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\verify.dll
+    C:\Windows\SYSTEM32\textinputframework.dll
+    C:\Windows\System32\CoreUIComponents.dll
+    C:\Windows\System32\CoreMessaging.dll
+    C:\Windows\System32\WS2_32.dll
+    C:\Windows\SYSTEM32\ntmarta.dll
+    C:\Windows\SYSTEM32\wintypes.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\java.dll
+    C:\Windows\system32\Oleacc.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\zip.dll
+    C:\Windows\SYSTEM32\TextShaping.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\dt_shmem.dll
+    C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1110_none_a8625c1886757984\comctl32.DLL
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\net.dll
+    C:\Windows\system32\napinsp.dll
+    C:\Windows\system32\pnrpnsp.dll
+    C:\Windows\system32\wshbth.dll
+    C:\Windows\system32\NLAapi.dll
+    C:\Windows\SYSTEM32\IPHLPAPI.DLL
+    C:\Windows\System32\mswsock.dll
+    C:\Windows\SYSTEM32\DNSAPI.dll
+    C:\Windows\System32\NSI.dll
+    C:\Windows\System32\winrnr.dll
+    C:\Program Files (x86)\Bonjour\mdnsNSP.dll
+    C:\Windows\System32\fwpuclnt.dll
+    C:\Windows\System32\bcrypt.dll
+    C:\Windows\System32\rasadhlp.dll
+    C:\Windows\System32\ole32.dll
+    C:\Windows\SYSTEM32\dbghelp.dll
+
+  0 .V PC=0023:77404063 Ret=774478bd Frame=0019e548 Stack=0019e3f8
+    Parameters (0x028cb3d8 0x028cb3e0 0x028cb3e0 0x028c0000)
+    Unknown module, RtlGetCurrentServiceSessionId() + 1059 byte(s)
+  1 .V PC=0023:774478bd Ret=77403c06 Frame=0019e5a4 Stack=0019e550
+    Parameters (0x00000000 0x00000000 0x00000000 0x0019fee0)
+    Unknown module, RtlGetNtGlobalFlags() + 1933 byte(s)
+  2 .V PC=0023:77403c06 Ret=00530995 Frame=0019e5c0 Stack=0019e5ac
+    Parameters (0x028c0000 0x00000000 0x028cb3e0 0x0019fee0)
+    Unknown module, RtlFreeHeap() + 0070 byte(s)
+  3 .V PC=0023:00530995 Ret=00526037 Frame=0019e608 Stack=0019e5c8
+    Parameters (0x028cb3e0 0x0019fee0 0x0019e690 0x0020f000)
+    free.c, _free_base (), Line 0096+0000 byte(s)
+  4 .V PC=0023:00526037 Ret=00525c51 Frame=0019e624 Stack=0019e610
+    Parameters (0x028cb400 0x00000001 0x0019fee0 0x0019e690)
+    dbgheap.c, _free_dbg_lk (), Line 1116+0009 byte(s)
+  5 .V PC=0023:00525c51 Ret=0041c83c Frame=0019e658 Stack=0019e62c
+    Parameters (0x028cb400 0x00000001 0x0019e670 0x0043c53b)
+    dbgheap.c, _free_dbg (), Line 1001+0013 byte(s)
+  6 .V PC=0023:0041c83c Ret=0043c53b Frame=0019e668 Stack=0019e660
+    Parameters (0x0019e680 0x004071eb 0xcccccccc 0xcccccccc)
+    src\edjava.c, EdJava_Finalize (), Line 0396+0014 byte(s)
+  7 .V PC=0023:0043c53b Ret=004071eb Frame=0019e670 Stack=0019e670
+    Parameters (0xcccccccc 0xcccccccc 0x0019e688 0x00446b2b)
+    src\edtext.c, EdText_Finalize (), Line 0458+0000 byte(s)
+  8 .V PC=0023:004071eb Ret=00446b2b Frame=0019e680 Stack=0019e678
+    Parameters (0x0019fee0 0x00401721 0x0052cb00 0x0052cb00)
+    src\eddisp.c, EdDisp_Finalize (), Line 0655+0000 byte(s)
+  9 .V PC=0023:00446b2b Ret=00401721 Frame=0019e688 Stack=0019e688
+    Parameters (0x0052cb00 0x0052cb00 0xcccccccc 0xcccccccc)
+    src\edwin.c, EdWin_Finalize (), Line 0379+0000 byte(s)
+ 10 .V PC=0023:00401721 Ret=0052cc26 Frame=0019fee0 Stack=0019e690
+    Parameters (0x00400000 0x00000000 0x00844214 0x00000001)
+    src\ed.c, WinMain (), Line 0482+0000 byte(s)
+ 11 .V PC=0023:0052cc26 Ret=7549fa29 Frame=0019ff70 Stack=0019fee8
+    Parameters (0x0020f000 0x7549fa10 0x0019ffdc 0x77427a7e)
+    crt0.c, WinMainCRTStartup (), Line 0198+0054 byte(s)
+ 12 .V PC=0023:7549fa29 Ret=77427a7e Frame=0019ff80 Stack=0019ff78
+    Parameters (0x0020f000 0x207f4823 0x00000000 0x00000000)
+    Unknown module, BaseThreadInitThunk() + 0025 byte(s)
+ 13 .V PC=0023:77427a7e Ret=77427a4e Frame=0019ffdc Stack=0019ff88
+    Parameters (0xffffffff 0x774489e2 0x00000000 0x00000000)
+    Unknown module, RtlGetAppContainerNamedObjectPath() + 0286 byte(s)
+ 14 .V PC=0023:77427a4e Ret=00000000 Frame=0019ffec Stack=0019ffe4
+    Parameters (0x0052cb00 0x0020f000 0x00000000 0x78746341)
+    Unknown module, RtlGetAppContainerNamedObjectPath() + 0238 byte(s)
+
+------------------------------------------------------

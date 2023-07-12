@@ -1,0 +1,139 @@
+import java.applet.Applet;
+import java.awt.*;
+import javax.swing.*;
+import java.awt.event.*;
+import java.awt.Color;
+
+public class CPTUnderWaterAdventures extends Applet implements KeyListener
+{
+
+    //fonts and variables used in the program
+    int mode = 1, player = 300, playerSpeed = 10, xSpeed = 2, ySpeed = 2, botY = 300, botSpeed = 3;
+    int jellyfishX, jellyfishY, backgroundX, backgroundY, turtleX, turtleY, titleX, titleY;
+    Font main = new Font ("Monospaced", Font.BOLD, 40);
+    Font rules = new Font ("Monospaced", Font.BOLD, 20);
+    Image jellyfishImg, turtleImg, backgroundImg, titleImg;
+
+    public void init ()
+    {
+	addKeyListener (this);
+	requestFocus ();
+
+	//getting the images for sprites and background
+	ImageIcon img0 = new ImageIcon ("jellyfish.png");
+	jellyfishImg = img0.getImage ();
+	jellyfishX = 0;
+	jellyfishY = 0;
+
+	ImageIcon img1 = new ImageIcon ("background.jpg");
+	backgroundImg = img1.getImage ();
+	backgroundX = 0;
+	backgroundY = 0;
+
+	ImageIcon img2 = new ImageIcon ("turtle.png");
+	turtleImg = img2.getImage ();
+	turtleX = 0;
+	turtleY = 0;
+
+	ImageIcon img3 = new ImageIcon ("title.png");
+	turtleImg = img3.getImage ();
+	titleX = getSize ().width / 2 - (482 / 2);
+	titleY = 200;
+
+
+
+    }
+
+
+    public void paint (Graphics g)  //paint method
+    {
+	if (mode == 0)
+	{
+	    menuScreen (g);
+	}
+	/*
+	else if (mode ==1)
+	{
+	easyMode(g);
+	}
+	else if (mode ==2)
+	{
+	ameteurMode(g);
+	}
+	else if (mode ==3)
+	{
+	hardMode(g);
+	}
+	else if(mode ==4);
+	{
+	exit(g);
+
+	}
+
+
+	}
+
+
+	publicvoidmenuScreen(Graphicsg)//menu screen method
+	{
+	 g.drawImage(backgroundImg,x,y,this);
+
+	}
+
+
+	publicvoideasyMode(Graphcicsg)//easymode level
+	{
+	String[] score = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"};
+	g.setFont(main);
+	}
+
+	publicvoidameteurMode(Graphcicsg)//ameteurmode level
+	{
+
+	}
+
+	publicvoidhardMode(Graphcicsg)//hardmode level
+	{
+
+	}
+
+	publicvoidexit(Graphicsg)//exitscreen
+	{
+
+	}
+
+	publicvoidlose(Graphicsg)//losescreen method
+	{
+
+	}
+
+	publicvoidwin(Graphicsg)//winscreen method
+	{
+
+	}
+
+	publicvoidkeyPressed(KeyEvente)//keypressed methods
+	{
+
+	}
+	publicvoidkeyReleased(KeyEvente)
+	{
+
+	}
+	publicvoidkeyTyped(KeyEvente)
+	{
+
+	}
+
+	publicvoiddelay(inttime) //delay
+	{
+	try
+	{
+	    Thread.sleep (time);
+	}
+	catch (InterruptedException e)
+	{
+	}
+	}
+	}
+	
